@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Promt:wght@300;500&display=swap');
+span.ans,
+h3,
+input.input,
+button,
+input.button {
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 300px;
+}
+
+.title {
+    padding: 1rem;
+    margin: 0;
+    min-height: 20px;
+    position: relative;
+}
+
+span.ans {
+    position: absolute;
+    right: 42.5%;
+    top: 26%;
+    font-size: 22px;
+}
+
+h3 {
+    position: absolute;
+    right: 50%;
+    top: 12.5%;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+form {
+    width: 90%;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.input {
+    width: 90%;
+    margin: 0.5rem 0;
+    height: 2rem;
+    border: 2px solid #242424;
+    text-align: end;
+    font-size: 22px;
+    border-radius: 0.35rem;
+}
+
+
+/* input.input:focus {
+    border-radius: 0.35rem;
+    border: 2px solid #494949;
+} */
+
+table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tbody {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 0px -10px;
+}
+
+tr {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+td {
+    width: 4rem;
+    height: 100%;
+    color: #242424;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0.25rem;
+    margin: 0 1rem;
+}
+
+input.button,
+button {
+    width: 100%;
+    height: 3.25rem;
+    border-radius: 50%;
+    border: 1px solid #494949;
+    /* box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3); */
+    color: #494949;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+}
+
+input.button:hover,
+button:hover {
+    background: #ececec;
+}
